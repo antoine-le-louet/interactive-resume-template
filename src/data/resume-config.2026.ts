@@ -4,7 +4,7 @@ export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
     name: 'Antoine Le Louët',
-    photo: '/images/photo.jpg',
+    photo: '/images/antoine-le-louet.jpg',
     photoBackEmoji: '👨‍💻',
     title: {
       en: 'Freelance Full-Stack Developer / Tech Lead (TypeScript · React · Next.js · Java)',
@@ -344,7 +344,7 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== THEME =====
   theme: {
-    preset: 'forest',
+    preset: 'ocean',
   },
 
   // ===== UI LABELS =====
