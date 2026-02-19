@@ -76,7 +76,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Express' },
         { name: 'Java' },
         { name: 'Python' },
-        { name: 'REST APIs' },
+        { name: 'REST' },
       ],
     },
     {
@@ -96,8 +96,8 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Docker' },
         { name: 'CI/CD' },
         { name: 'Vercel' },
-        { name: 'Microsoft Azure' },
-        { name: 'Google Cloud Platform' },
+        { name: 'Azure' },
+        { name: 'GCP' },
         { name: 'Nginx' },
         { name: 'Apache' },
       ],
@@ -173,7 +173,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Built DonnezVotreVoiture.org end-to-end as the sole developer: architecture, fullstack implementation, deployment and continuous improvements for a social-impact platform.',
         fr: "Développement complet de DonnezVotreVoiture.org en tant que développeur unique : architecture, implémentation fullstack, déploiement et amélioration continue (plateforme à impact).",
       },
-      techs: ['Next.js', 'React', 'TypeScript', 'Node.js', 'Airtable', 'Vercel'],
+      techs: ['Next.js', 'React', 'TypeScript', 'Node.js', 'Airtable', 'Vercel', 'Styled Components'],
       isHighlighted: true,
       details: {
         context: {

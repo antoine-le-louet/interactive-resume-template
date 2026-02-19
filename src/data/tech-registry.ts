@@ -81,6 +81,7 @@ const TECH_REGISTRY = {
 
   // ===== Databases =====
   'PostgreSQL': { color: '#4169E1' },
+  'Microsoft SQL Server': { color: '#4169E1' },
   'MongoDB': { color: '#47A248' },
   'MySQL': { color: '#4479A1' },
   'Redis': { color: '#DC382D' },
@@ -92,6 +93,7 @@ const TECH_REGISTRY = {
   'MariaDB': { color: '#003545' },
   'Neo4j': { color: '#4581C3' },
   'Cassandra': { color: '#1287B1' },
+  'Airtable': { color: '#1287B1' },
   'CouchDB': { color: '#E42528' },
   'PlanetScale': { color: '#000000' },
   'Neon': { color: '#00E599' },
@@ -104,6 +106,7 @@ const TECH_REGISTRY = {
   'Google Cloud': { color: '#4285F4' },
   'Azure': { color: '#0078D4' },
   'Terraform': { color: '#7B42BC' },
+  'Apache': { color: '#7B42BC' },
   'GitHub Actions': { color: '#2088FF' },
   'GitLab CI': { color: '#FC6D26' },
   'Jenkins': { color: '#D24939' },
