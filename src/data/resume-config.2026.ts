@@ -80,12 +80,13 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'Databases & Search', fr: 'Bases de données & Search' },
+      title: { en: 'Databases', fr: 'Bases de données' },
       type: 'badges',
       items: [
         { name: 'PostgreSQL' },
         { name: 'MySQL' },
         { name: 'Microsoft SQL Server' },
+        { name: 'Airtable' },
       ],
     },
     {
@@ -116,7 +117,7 @@ export const resumeConfig: ResumeConfig = {
     {
       title: { en: 'SEO & Web Performance', fr: 'SEO & Performance Web' },
       type: 'badges',
-      items: [{ name: 'Lighthouse' }, { name: 'Google Search Console' }, { name: 'Semrush' }, { name: 'SSR' }],
+      items: [{ name: 'Lighthouse' }, { name: 'Google Search Console' }, { name: 'Argos' }, { name: 'Semrush' }, { name: 'SSR' }],
     },
   ],
 
@@ -282,94 +283,6 @@ export const resumeConfig: ResumeConfig = {
         },
       },
     },
-
-    {
-      id: 'coreoz-intern',
-      company: { en: 'Coreoz', fr: 'Coreoz' },
-      role: { en: 'Full-Stack Developer Intern', fr: 'Stagiaire Développeur Full-Stack' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'Jul 2018 - Dec 2018', fr: 'Juil. 2018 - Déc. 2018' },
-      description: {
-        en: 'Worked on web development projects and contributed to back-end and front-end performance improvements and API integrations.',
-        fr: "Participation à des projets web : dev, optimisations de performance front/back et intégrations d’API.",
-      },
-      techs: ['Java', 'React', 'TypeScript', 'SQL'],
-    },
-
-    {
-      id: 'airfrance-klm-ml',
-      company: { en: 'Air France-KLM', fr: 'Air France-KLM' },
-      role: { en: 'Software Developer (Machine Learning) — Intern', fr: 'Développeur Logiciel (Machine Learning) — Stage' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'May 2017 - Aug 2017', fr: 'Mai 2017 - Août 2017' },
-      description: {
-        en: 'Built an unsupervised email classification tool in Python (scikit-learn) to automate internal email handling via Outlook APIs.',
-        fr: "Développement d’un outil de classification non supervisée d’emails en Python (scikit-learn) pour automatiser le traitement via APIs Outlook.",
-      },
-      techs: ['Python', 'scikit-learn'],
-      details: {
-        context:  {
-          en: 'Python / scikit-learn / Microsoft Outlook API',
-          fr: 'Python / scikit-learn / API Microsoft Outlook',
-        },
-        tasks: {
-          en: [
-            'Implemented unsupervised classification approach for email clustering',
-            'Integrated with Microsoft Outlook APIs for automation',
-            'Delivered productivity improvements through reduced manual triage',
-          ],
-          fr: [
-            'Implémentation d’une approche non supervisée pour regrouper/classer des emails',
-            'Intégration via APIs Microsoft Outlook pour automatisation',
-            'Gain de productivité via réduction du tri manuel',
-          ],
-        },
-        env: {
-          en: 'Python / scikit-learn / Microsoft Outlook API',
-          fr: 'Python / scikit-learn / API Microsoft Outlook',
-        },
-
-      },
-    },
-
-    {
-      id: 'identicar-web',
-      company: { en: 'Groupe Identicar', fr: 'Groupe Identicar' },
-      role: { en: 'Web Developer — Intern', fr: 'Développeur Web — Stage' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'Sep 2015 - Oct 2015', fr: 'Sept. 2015 - Oct. 2015' },
-      description: {
-        en: 'Built an interactive website leveraging Google Maps API and a C# WebService (ASP.NET MVC).',
-        fr: 'Développement d’un site interactif avec API Google Maps + WebService en C# (ASP.NET MVC).',
-      },
-      techs: ['C#', 'ASP.NET MVC', 'SQL'],
-    },
-
-    {
-      id: 'identicar-analyst',
-      company: { en: 'Groupe Identicar', fr: 'Groupe Identicar' },
-      role: { en: 'Analyst-Developer — Intern', fr: 'Analyste-Développeur — Stage' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'Jul 2014 - Aug 2014', fr: 'Juil. 2014 - Août 2014' },
-      description: {
-        en: 'First professional experience: analysis and development of internal applications (ASP.NET MVC and SQL).',
-        fr: 'Première immersion : analyse et développement d’applications internes (ASP.NET MVC et SQL).',
-      },
-      techs: ['C#', 'ASP.NET MVC', 'SQL'],
-    },
-
-    {
-      id: 'gfi-support',
-      company: { en: 'Gfi Informatique', fr: 'Gfi Informatique' },
-      role: { en: 'IT Support Technician — Intern', fr: "Technicien d'assistance informatique — Stage" },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'Jul 2013', fr: 'Juil. 2013' },
-      description: {
-        en: 'Workstation fleet maintenance, troubleshooting and basic network configuration for multiple clients.',
-        fr: 'Maintenance de parc, dépannage et configuration réseau de base pour divers clients.',
-      },
-      techs: ['IT Support'],
-    },
   ],
 
   // ===== PROJECTS (optional) =====
@@ -452,7 +365,10 @@ export const resumeConfig: ResumeConfig = {
       technologies: { en: 'Technologies', fr: 'Technologies' },
     },
     actions: {
-      clickHint: { en: 'Click on experiences to see more details', fr: 'Cliquez sur les expériences pour voir plus de détails' },
+      clickHint: {
+        en: 'Click on experiences to see more details',
+        fr: 'Cliquez sur les expériences pour voir plus de détails'
+      },
       switchTheme: { en: 'Toggle dark mode', fr: 'Changer le thème' },
       downloadPdf: { en: 'Download PDF', fr: 'Télécharger le PDF' },
     },
