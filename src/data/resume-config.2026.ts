@@ -36,11 +36,13 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'dokor', href: 'https://github.com/dokor' },
+
     { type: 'linkedin', label: 'Antoine Le Louët', href: 'https://www.linkedin.com/in/antoine-le-lou%C3%ABt/' },
-    { type: 'email', label: 'antoine@lelouet.fr' },
+    { type: 'email', label: 'a.lelouet.freelance@gmail.com' },
     { type: 'phone', label: '+33 6 23 22 03 32' },
     { type: 'location', label: 'Forest, Belgium (Brussels)' },
+    { type: 'website', label: 'Malt', href: 'https://www.malt.fr/profile/antoinelelouet' },
+    { type: 'github', label: 'Github', href: 'https://github.com/dokor' },
     { type: 'website', label: 'lelouet.fr', href: 'https://lelouet.fr/' },
   ],
 
@@ -64,10 +66,6 @@ export const resumeConfig: ResumeConfig = {
         { name: 'TypeScript' },
         { name: 'JavaScript' },
         { name: 'Tailwind CSS' },
-        { name: 'HTML' },
-        { name: 'CSS' },
-        { name: 'Jest' },
-        { name: 'Playwright' },
       ],
     },
     {
@@ -75,11 +73,10 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'Node.js' },
+        { name: 'Express' },
         { name: 'Java' },
         { name: 'Python' },
-        { name: 'GraphQL' },
         { name: 'REST APIs' },
-        { name: 'Express' },
       ],
     },
     {
@@ -89,9 +86,6 @@ export const resumeConfig: ResumeConfig = {
         { name: 'PostgreSQL' },
         { name: 'MySQL' },
         { name: 'Microsoft SQL Server' },
-        { name: 'MongoDB' },
-        { name: 'Airtable' },
-        { name: 'Elasticsearch' },
       ],
     },
     {
@@ -99,9 +93,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'Docker' },
-        { name: 'Kubernetes' },
         { name: 'CI/CD' },
-        { name: 'GitLab CI' },
         { name: 'Vercel' },
         { name: 'Microsoft Azure' },
         { name: 'Google Cloud Platform' },
@@ -389,8 +381,18 @@ export const resumeConfig: ResumeConfig = {
         en: 'Social-impact platform built end-to-end (Next.js, TypeScript, Airtable, Vercel).',
         fr: 'Plateforme à impact développée de bout en bout (Next.js, TypeScript, Airtable, Vercel).',
       },
-      techs: ['Next.js', 'TypeScript', 'Airtable', 'Vercel'],
+      techs: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel', 'Strapi'],
       url: 'https://donnezvotrevoiture.org',
+    },
+    {
+      id: 'jobs-brico',
+      title: { en: 'TODO', fr: 'Site de recrutement de Brico.Be' },
+      description: {
+        en: 'Website maintenance and legacy code migration',
+        fr: 'Maintenance du site et reprise du code legacy',
+      },
+      techs: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
+      url: 'https://jobs.brico.be/fr',
     },
     {
       id: 'robin-site',
@@ -412,11 +414,6 @@ export const resumeConfig: ResumeConfig = {
       specialty: { en: 'Information Systems & Cybersecurity', fr: "Systèmes d’information & Cybersécurité" },
       period: '2012 - 2018',
     },
-    {
-      school: { en: 'Saint-Laurent LPND', fr: 'Saint-Laurent LPND' },
-      degree: { en: 'Scientific Baccalaureate', fr: 'Bac Scientifique' },
-      period: '2010 - 2012',
-    },
   ],
 
   // ===== HOBBIES (optional) =====
@@ -428,13 +425,13 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Music (coding playlists)', fr: 'Musique (playlists pour coder)' },
     },
     {
-      title: { en: 'SEO & Web performance', fr: 'SEO & performance web' },
+      title: { en: 'Home lab', fr: 'Gestion d\'un homelab de 3 raspberrys' },
     },
   ],
 
   // ===== THEME =====
   theme: {
-    preset: 'warm',
+    preset: 'forest',
   },
 
   // ===== UI LABELS =====
